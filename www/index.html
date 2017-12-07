@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <link rel="stylesheet" type="text/css" href="jquery.mobile-1.4.5.css" />
+        <link rel="stylesheet" type="text/css" href="style.css">
+		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" src="jquery.mobile-1.4.5.min.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+       <!--  <script type="text/javascript" src="cordova.js"></script> -->
+        <title>Transfer Player App</title>
+    </head>
+    <body>
+        
+			
+            <!-- Start of first page -->
+            <div data-role="page" id="page-transfer" class="ui-body-b">
+                <div data-role="header" id="header">            
+                    <a href="#mypanel1" data-icon="bars" data-theme="b" data-iconpos="notext" style="margin: 10px;"></a>
+                    <h1>Transfer List</h1>
+                </div><!-- /header -->
+
+                <div data-role="panel" id="mypanel1" class="ui-responsive-panel">
+                    <!-- panel content goes here -->
+                    <ul data-role="listview">
+                        <li><h1 align="center">Menu</h1></li>
+                        <li><a href="#page-transfer">Transfer List</a></li>
+                        <li><a href="#page-tim">Team List</a></li>
+                        <li><a href="#page-liga">League List</a></li>
+                        <li><a href="#page-agen">Agent List</a></li>
+                    </ul>
+                </div><!-- /panel -->
+
+                <div role="main" class="ui-content" id="content">
+                    <form class="ui-filterable">
+                        <input id="autocomplete1" data-type="search" placeholder="Search...">
+                    </form>
+                    <ul data-role="listview" data-filter="true" data-filter-reveal="false" data-input="#autocomplete1" data-inset="true">
+                        <li><a href="#">
+                            <h2>iOS 6.1</h2>
+                            <p>Apple released iOS 6.1</p>
+                            <p class="ui-li-aside">iOS</p>
+                        </a></li>
+                        <li><a href="#">
+                            <h2>BlackBerry 10</h2>
+                            <p>BlackBerry launched the Z10 and Q10 with the new BB10 OS</p>
+                            <p class="ui-li-aside">BlackBerry</p>
+                        </a></li>
+                        <li><a href="#">
+                            <h2>WP 7.8</h2>
+                            <p>Nokia rolls out WP 7.8 to Lumia 800</p>
+                            <p class="ui-li-aside">Windows Phone</p>
+                        </a></li>
+                        <li><a href="#">
+                            <h2>Galaxy</h2>
+                            <p>New Samsung Galaxy Express</p>
+                            <p class="ui-li-aside">Samsung</p>
+                        </a></li>
+                        <li><a href="#">
+                            <h2>Nexus 7</h2>
+                            <p>Rumours about new full HD Nexus 7</p>
+                            <p class="ui-li-aside">Android</p>
+                        </a></li>
+                        <li><a href="#">
+                            <h2>Firefox OS</h2>
+                            <p>ZTE to launch Firefox OS smartphone at MWC</p>
+                            <p class="ui-li-aside">Firefox</p>
+                        </a></li>
+                        <li><a href="#">
+                            <h2>Tizen</h2>
+                            <p>First Samsung phones with Tizen can be expected in 2013</p>
+                            <p class="ui-li-aside">Tizen</p>
+                        </a></li>
+                        <li><a href="#">
+                            <h2>Symbian</h2>
+                            <p>Nokia confirms the end of Symbian</p>
+                            <p class="ui-li-aside">Symbian</p>
+                        </a></li>
+                    </ul>
+                </div><!-- /content -->
+
+                <div data-role="footer" id="footer">
+                    <h4 align="center">PPK A - Kelompok 2</h4>
+                </div><!-- /footer -->
+            </div>
+
+
+
+
+			<!-- Start of second page -->
+			<div data-role="page" id="page-tim" class="ui-body-b">
+				<div data-role="header" id="header">			
+					<a href="#mypanel2" data-icon="bars" data-theme="b" data-iconpos="notext" style="margin: 10px;"></a>
+					<h1>Team List</h1>
+				</div><!-- /header -->
+
+				<div data-role="panel" id="mypanel2" class="ui-responsive-panel">
+                    <!-- panel content goes here -->
+                    <ul data-role="listview">
+                        <li><h1 align="center">Menu</h1></li>
+                        <li><a href="#page-transfer">Transfer List</a></li>
+                        <li><a href="#page-tim">Team List</a></li>
+                        <li><a href="#page-liga">League List</a></li>
+                        <li><a href="#page-agen">Agent List</a></li>
+                    </ul>
+                </div><!-- /panel -->
+
+				<div role="main" class="ui-content" id="content">
+                    <form class="ui-filterable">
+                        <input id="autocomplete2" data-type="search" placeholder="Search...">
+                    </form>
+                    <ul data-role="listview" data-filter="true" data-filter-reveal="false" data-input="#autocomplete2" data-inset="true">
+                        <li data-role="list-divider" style="font-size: 18px;">Premier League</li>
+                        <li><a href="#">
+                            <img src="../_assets/img/apple.png" class="ui-li-thumb">
+                            <h2>iOS 6.1</h2>
+                            <p>Apple released iOS 6.1</p>
+                            <p class="ui-li-aside">iOS</p>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="../_assets/img/blackberry_10.png" class="ui-li-thumb">
+                            <h2>BlackBerry 10</h2>
+                            <p>BlackBerry launched the Z10 and Q10 with the new BB10 OS</p>
+                            <p class="ui-li-aside">BlackBerry</p>
+                        </a></li>
+                        <li data-role="list-divider" style="font-size: 18px;">La Liga</li>
+                        <li><a href="#">
+                            <img src="../_assets/img/lumia_800.png" class="ui-li-thumb">
+                            <h2>WP 7.8</h2>
+                            <p>Nokia rolls out WP 7.8 to Lumia 800</p>
+                            <p class="ui-li-aside">Windows Phone</p>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="../_assets/img/galaxy_express.png" class="ui-li-thumb">
+                            <h2>Galaxy</h2>
+                            <p>New Samsung Galaxy Express</p>
+                            <p class="ui-li-aside">Samsung</p>
+                        </a></li>
+                        <li data-role="list-divider" style="font-size: 18px;">Serie A</li>
+                        <li><a href="#">
+                            <img src="../_assets/img/nexus_7.png" class="ui-li-thumb">
+                            <h2>Nexus 7</h2>
+                            <p>Rumours about new full HD Nexus 7</p>
+                            <p class="ui-li-aside">Android</p>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="../_assets/img/firefox_os.png" class="ui-li-thumb">
+                            <h2>Firefox OS</h2>
+                            <p>ZTE to launch Firefox OS smartphone at MWC</p>
+                            <p class="ui-li-aside">Firefox</p>
+                        </a></li>
+                        <li data-role="list-divider" style="font-size: 18px;">Bundesliga</li>
+                        <li><a href="#">
+                            <img src="../_assets/img/tizen.png" class="ui-li-thumb">
+                            <h2>Tizen</h2>
+                            <p>First Samsung phones with Tizen can be expected in 2013</p>
+                            <p class="ui-li-aside">Tizen</p>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="../_assets/img/tizen.png" class="ui-li-thumb">
+                            <h2>Symbian</h2>
+                            <p>Nokia confirms the end of Symbian</p>
+                            <p class="ui-li-aside">Symbian</p>
+                        </a></li>
+                    </ul>
+                </div><!-- /content -->
+
+				<div data-role="footer" id="footer">
+                    <h4 align="center">PPK A - Kelompok 2</h4>
+                </div><!-- /footer -->
+			</div><!-- /page -->
+
+
+
+
+			<!-- Start of third page -->
+			<div data-role="page" id="page-liga" class="ui-body-b">
+				<div data-role="header" id="header">			
+					<a href="#mypanel3" data-icon="bars" data-theme="b" data-iconpos="notext" style="margin: 10px;"></a>
+					<h1>League List</h1>
+				</div><!-- /header -->
+
+				<div data-role="panel" id="mypanel3" class="ui-responsive-panel">
+                    <!-- panel content goes here -->
+                    <ul data-role="listview">
+                        <li><h1 align="center">Menu</h1></li>
+                        <li><a href="#page-transfer">Transfer List</a></li>
+                        <li><a href="#page-tim">Team List</a></li>
+                        <li><a href="#page-liga">League List</a></li>
+                        <li><a href="#page-agen">Agent List</a></li>
+                    </ul>
+                </div><!-- /panel -->
+
+				<div role="main" class="ui-content" id="content">
+                    <form class="ui-filterable">
+                        <input id="autocomplete3" data-type="search" placeholder="Search...">
+                    </form>
+                    <ul data-role="listview" data-filter="true" data-filter-reveal="false" data-input="#autocomplete3" data-inset="true">
+                        <li><a href="#">
+                            <img src="../_assets/img/apple.png" class="ui-li-thumb">
+                            <h2>iOS 6.1</h2>
+                            <p>Apple released iOS 6.1</p>
+                            <p class="ui-li-aside">iOS</p>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="../_assets/img/blackberry_10.png" class="ui-li-thumb">
+                            <h2>BlackBerry 10</h2>
+                            <p>BlackBerry launched the Z10 and Q10 with the new BB10 OS</p>
+                            <p class="ui-li-aside">BlackBerry</p>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="../_assets/img/lumia_800.png" class="ui-li-thumb">
+                            <h2>WP 7.8</h2>
+                            <p>Nokia rolls out WP 7.8 to Lumia 800</p>
+                            <p class="ui-li-aside">Windows Phone</p>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="../_assets/img/galaxy_express.png" class="ui-li-thumb">
+                            <h2>Galaxy</h2>
+                            <p>New Samsung Galaxy Express</p>
+                            <p class="ui-li-aside">Samsung</p>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="../_assets/img/nexus_7.png" class="ui-li-thumb">
+                            <h2>Nexus 7</h2>
+                            <p>Rumours about new full HD Nexus 7</p>
+                            <p class="ui-li-aside">Android</p>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="../_assets/img/firefox_os.png" class="ui-li-thumb">
+                            <h2>Firefox OS</h2>
+                            <p>ZTE to launch Firefox OS smartphone at MWC</p>
+                            <p class="ui-li-aside">Firefox</p>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="../_assets/img/tizen.png" class="ui-li-thumb">
+                            <h2>Tizen</h2>
+                            <p>First Samsung phones with Tizen can be expected in 2013</p>
+                            <p class="ui-li-aside">Tizen</p>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="../_assets/img/tizen.png" class="ui-li-thumb">
+                            <h2>Symbian</h2>
+                            <p>Nokia confirms the end of Symbian</p>
+                            <p class="ui-li-aside">Symbian</p>
+                        </a></li>
+                    </ul>
+                </div><!-- /content -->
+				
+				<div data-role="footer" id="footer">
+                    <h4 align="center">PPK A - Kelompok 2</h4>
+                </div><!-- /footer -->
+			</div><!-- /page -->
+
+
+
+
+
+			<!-- Start of fourth page -->
+			<div data-role="page" id="page-agen" class="ui-body-b">
+				<div data-role="header" id="header">			
+					<a href="#mypanel4" data-icon="bars" data-theme="b" data-iconpos="notext" style="margin: 10px;"></a>
+					<h1>Agent List</h1>
+				</div><!-- /header -->
+
+				<div data-role="panel" id="mypanel4" class="ui-responsive-panel">
+                    <!-- panel content goes here -->
+                    <ul data-role="listview">
+                        <li><h1 align="center">Menu</h1></li>
+                        <li><a href="#page-transfer">Transfer List</a></li>
+                        <li><a href="#page-tim">Team List</a></li>
+                        <li><a href="#page-liga">League List</a></li>
+                        <li><a href="#page-agen">Agent List</a></li>
+                    </ul>
+                </div><!-- /panel -->
+
+				<div role="main" class="ui-content" id="content">
+				    <form class="ui-filterable">
+                        <input id="autocomplete4" data-type="search" placeholder="Search...">
+                    </form>
+                    <ul data-role="listview" data-filter="true" data-filter-reveal="false" data-input="#autocomplete4" data-inset="true">
+                        <li><a href="#">
+                            <h2>iOS 6.1</h2>
+                            <p>Apple released iOS 6.1</p>
+                            <p class="ui-li-aside">iOS</p>
+                        </a></li>
+                        <li><a href="#">
+                            <h2>BlackBerry 10</h2>
+                            <p>BlackBerry launched the Z10 and Q10 with the new BB10 OS</p>
+                            <p class="ui-li-aside">BlackBerry</p>
+                        </a></li>
+                        <li><a href="#">
+                            <h2>WP 7.8</h2>
+                            <p>Nokia rolls out WP 7.8 to Lumia 800</p>
+                            <p class="ui-li-aside">Windows Phone</p>
+                        </a></li>
+                        <li><a href="#">
+                            <h2>Galaxy</h2>
+                            <p>New Samsung Galaxy Express</p>
+                            <p class="ui-li-aside">Samsung</p>
+                        </a></li>
+                        <li><a href="#">
+                            <h2>Nexus 7</h2>
+                            <p>Rumours about new full HD Nexus 7</p>
+                            <p class="ui-li-aside">Android</p>
+                        </a></li>
+                        <li><a href="#">
+                            <h2>Firefox OS</h2>
+                            <p>ZTE to launch Firefox OS smartphone at MWC</p>
+                            <p class="ui-li-aside">Firefox</p>
+                        </a></li>
+                        <li><a href="#">
+                            <h2>Tizen</h2>
+                            <p>First Samsung phones with Tizen can be expected in 2013</p>
+                            <p class="ui-li-aside">Tizen</p>
+                        </a></li>
+                        <li><a href="#">
+                            <h2>Symbian</h2>
+                            <p>Nokia confirms the end of Symbian</p>
+                            <p class="ui-li-aside">Symbian</p>
+                        </a></li>
+                    </ul>
+                </div><!-- /content -->
+				
+				<div data-role="footer" id="footer">
+                    <h4 align="center">PPK A - Kelompok 2</h4>
+                </div><!-- /footer -->
+			</div><!-- /page -->
+	
+
+    </body>
+</html>
